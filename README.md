@@ -212,6 +212,10 @@ aqi-prediction/
 Mistake: Created lag features before filtering to a single location.
 Why it was wrong: Anand Vihar's lag_1h was pulling from a completely different station's last row.
 Fix: Filter to one location first, then compute all lag features.
+
+## Want to run the app ?
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://zaidhusain-ml-projects-streamlit-app.streamlit.app](https://safeaqi.streamlit.app/))
+
 ## 🙋 Author
 
 **Zaid Khan** — ML Engineer\
