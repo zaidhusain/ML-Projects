@@ -214,7 +214,8 @@ Why it was wrong: Anand Vihar's lag_1h was pulling from a completely different s
 Fix: Filter to one location first, then compute all lag features.
 
 ## Want to run the app ?
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://zaidhusain-ml-projects-streamlit-app.streamlit.app](https://safeaqi.streamlit.app/))
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zaidhusain-ml-projects-streamlit-app.streamlit.app)
 
 ## 🙋 Author
 
