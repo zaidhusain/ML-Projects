@@ -188,18 +188,6 @@ aqi-prediction/
 3. **Not shifting moving averages**:  MA_7 and MA_30 
    included today's value while predicting today's target
 
-
-## Ⓜ️ Big Mistakes
-1. **Data Leakage** : used pm10_lag_1h which is a direct 
-   component of AQI formula
-
-2. **fillna(0)**: filled rolling average NaNs with 0 
-   instead of dropping them, injecting fake data
-
-3. **Not shifting moving averages**:  MA_7 and MA_30 
-   included today's value while predicting today's target
-
-
 # 🎯 Key Learning
 
 1. Raw pollutant columns (PM2.5, PM10) are components of AQI, using their 1-hour lags is a form of leakage even though they appear to be separate features.
@@ -215,7 +203,7 @@ Fix: Filter to one location first, then compute all lag features.
 
 ## Want to run the app ?
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zaidhusain-ml-projects-streamlit-app.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://safeaqi.streamlit.app/)
 
 ## 🙋 Author
 
